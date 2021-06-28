@@ -1,0 +1,109 @@
+.total{
+    width: 100%;
+    height: 800px;
+    background-color:#fafafa;
+}
+body{
+    margin: 0;
+}
+.left{
+    width: 50%;
+    height: 650px;
+    background-color: #fafafa;
+    float: left;
+   
+}
+.mob{
+    padding-left: 261px;
+    padding-top: 31px;
+    float: left;
+}
+.p1{
+    position: absolute;
+    top: 130px;
+    left: 412px;
+   
+}
+.p2{
+    position: absolute;
+    top: 130px;
+    left: 412px;
+    animation-name: motion; 
+    animation-timing-function: ease-in-out; 
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-direction: alternate; 
+
+}
+@keyframes motion{
+    0% {
+        opacity: 1;
+    }
+    45%{
+        opacity: 1;
+    }
+    55%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+
+}
+.right{
+    width: 50%;
+    height: 650px;
+    background-color: #fafafa;
+    float: left;
+}
+.box1{
+    position: absolute;
+    background-color:white;
+    top: 71px;
+    left: 705px;
+    width: 340px;
+    height: 363px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+.box2{
+    position: absolute;
+    background-color:white;
+    top: 444px;
+    left: 705px;
+    width: 340px;
+    height: 74px;
+    border: solid;
+    border-width: 1px;
+    border-color: #dbdbdb;
+}
+.logo{
+    position: absolute;
+    top: 102px;
+    left: 784px;
+    
+}
+.input{
+    width: 231px;
+    height: 33px;
+    border: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: #dbdbdb;
+    background-color: #fafafa;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+.inbox{
+    margin-top: 115px;
+    margin-left: 46px;
+}
+#button{
+    width: 231px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+}
